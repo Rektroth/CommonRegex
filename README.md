@@ -9,10 +9,10 @@ The format is `YYYY-MM-DD`. The dashes are required.
 ```
 
 ## Time
-The format is `HH:MM:SS.mmmmmm`. The semicolons are required. The milliseconds are optional.
+The format is `HH:MM:SS.mmmm`. The semicolons are required. The milliseconds are optional.
 
 ```
-^([01][0-9]|2[0-3])[:][0-5][0-9][:][0-5][0-9]([.][0-9]{6})?$
+^([01][0-9]|2[0-3])[:][0-5][0-9][:][0-5][0-9]([.][0-9]{4})?$
 
 ```
 

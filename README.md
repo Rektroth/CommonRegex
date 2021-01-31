@@ -1,5 +1,5 @@
 # CommonRegex
-Some regular expressions for dates and times.
+Some regular expressions for common needs.
 
 ## Date
 The format is `YYYY-MM-DD`. The dashes are required.

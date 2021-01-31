@@ -1,4 +1,4 @@
-# DateTimeRegex
+# CommonRegex
 Some regular expressions for dates and times.
 
 ## Date

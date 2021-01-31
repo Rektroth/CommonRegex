@@ -15,3 +15,10 @@ The format is `HH:MM:SS.mmmmmm`. The semicolons are required. The milliseconds a
 ^([01][0-9]|2[0-3])\:[0-5][0-9]\:[0-5][0-9](\.[0-9]{6})?$
 
 ```
+
+## Phone
+The format is `+ISO REG-LOC-NUMB`. The dashes are required. `+ISO` and `REG` are optional.
+
+```
+^((([+][1-9][0-9]?[0-9]?)?[ ])?[1-9][0-9]{2}[-])?[1-9][0-9]{2}[-][1-9][0-9]{3}$
+```

@@ -22,3 +22,10 @@ The format is `+ISO REG-LOC-NUMB`. The dashes are required. `+ISO` and `REG` are
 ```
 ^((([+][1-9][0-9]?[0-9]?)?[ ])?[1-9][0-9]{2}[-])?[1-9][0-9]{2}[-][1-9][0-9]{3}$
 ```
+
+## Hexidecimal Colors
+Standard hexidecimal colors without a `#`.
+
+```
+^[a-f0-9]{6}$
+```

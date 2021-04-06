@@ -24,8 +24,18 @@ The format is `+ISO REG-LOC-NUMB`. The dashes are required. `+ISO` and `REG` are
 ```
 
 ## Hexidecimal Colors
-Standard hexidecimal colors without a `#`.
 
+### No `#`
 ```
 ^[a-f0-9]{6}$
+```
+
+### Optional `#`
+```
+^#?[a-f0-9]{6}$
+```
+
+### Required `#`
+```
+^#[a-f0-9]{6}$
 ```

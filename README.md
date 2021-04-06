@@ -25,12 +25,15 @@ The format is `+ISO REG-LOC-NUMB`. The dashes are required. `+ISO` and `REG` are
 
 ## Hexidecimal Colors
 
+* No leading `#` (3-digit): `^[a-f0-9]{3}$`
+* Optional leading `#` (3-digit): `^#?[a-f0-9]{3}$`
+* Leading `#` (3-digit): `^#[a-f0-9]{6}$`
 * No leading `#` without opacity: `^[a-f0-9]{6}$`
 * Optional leading `#` without opacity: `^#?[a-f0-9]{6}$`
-* Required leading `#` without opacity: `^#[a-f0-9]{6}$`
+* Leading `#` without opacity: `^#[a-f0-9]{6}$`
 * No leading `#` with optional opacity: `^[a-f0-9]{6}([a-f0-9]{2})?$`
 * Optional leading `#` with optional opacity: `^#?[a-f0-9]{6}([a-f0-9]{2})?$`
-* Required leading `#` with optional opacity: `^#[a-f0-9]{6}([a-f0-9]{2})?$`
+* Leading `#` with optional opacity: `^#[a-f0-9]{6}([a-f0-9]{2})?$`
 * No leading `#` with opacity: `^[a-f0-9]{8}$`
 * Optional leading `#` with opacity: `^#?[a-f0-9]{8}$`
-* Required leading `#` with opacity: `^#[a-f0-9]{8}$`
+* Leading `#` with opacity: `^#[a-f0-9]{8}$`

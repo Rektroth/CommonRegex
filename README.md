@@ -25,21 +25,11 @@ The format is `+ISO REG-LOC-NUMB`. The dashes are required. `+ISO` and `REG` are
 
 ## Hexidecimal Colors
 
-* No leading `#` (3-digit): `^[a-f0-9]{3}$`
-* Optional leading `#` (3-digit): `^#?[a-f0-9]{3}$`
-* Leading `#` (3-digit): `^#[a-f0-9]{3}$`
-* No leading `#` (3/6-digit): `^[a-f0-9]{3}([a-f0-9]{3})?$`
-* Optional leading `#` (3/6-digit): `^#?[a-f0-9]{3}([a-f0-9]{3})?$`
-* Leading `#` (3/6-digit): `^#[a-f0-9]{3}([a-f0-9]{3})?$`
-* No leaing `#` (3/6/8-digit): `^[a-f0-9]{3}([a-f0-9]{3}([a-f0-9]{2})?)?$`
-* Optional leading `#` (3/6/8-digit): `^#?[a-f0-9]{3}([a-f0-9]{3}([a-f0-9]{2})?)?$`
-* Leading `#` (3/6/8-digit): `^#[a-f0-9]{3}([a-f0-9]{3}([a-f0-9]{2})?)?$`
-* No leading `#` (6-digit): `^[a-f0-9]{6}$`
-* Optional leading `#` (6-digit): `^#?[a-f0-9]{6}$`
-* Leading `#` (6-digit): `^#[a-f0-9]{6}$`
-* No leading `#` (6/8-digit): `^[a-f0-9]{6}([a-f0-9]{2})?$`
-* Optional leading `#` (6/8-digit): `^#?[a-f0-9]{6}([a-f0-9]{2})?$`
-* Leading `#` (6/8-digit): `^#[a-f0-9]{6}([a-f0-9]{2})?$`
-* No leading `#` (8-digit): `^[a-f0-9]{8}$`
-* Optional leading `#` (8-digit): `^#?[a-f0-9]{8}$`
-* Leading `#` (8-digit): `^#[a-f0-9]{8}$`
+.. | No leading `#` | Optional Leading `#` | Required Leading `#`
+-- | -------------- | -------------------- | --------------------
+**3-digit** | `^[a-f0-9]{3}$` | `^#?[a-f0-9]{3}$` | `^#[a-f0-9]{3}$`
+**3/6-digit** | `^[a-f0-9]{3}([a-f0-9]{3})?$` | `^#?[a-f0-9]{3}([a-f0-9]{3})?$` | `^#[a-f0-9]{3}([a-f0-9]{3})?$`
+**3/6/8-digit** | `^[a-f0-9]{3}([a-f0-9]{3}([a-f0-9]{2})?)?$` | `^#?[a-f0-9]{3}([a-f0-9]{3}([a-f0-9]{2})?)?$` | `^#[a-f0-9]{3}([a-f0-9]{3}([a-f0-9]{2})?)?$`
+**6-digit** | `^[a-f0-9]{6}$` | `^#?[a-f0-9]{6}$` | `^#[a-f0-9]{6}$`
+**6/8-digit** | `^[a-f0-9]{6}([a-f0-9]{2})?$` | `^#?[a-f0-9]{6}([a-f0-9]{2})?$` | `^#[a-f0-9]{6}([a-f0-9]{2})?$`
+**8-digit** | `^[a-f0-9]{8}$` | `^#?[a-f0-9]{8}$` | `^#[a-f0-9]{8}$`

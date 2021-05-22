@@ -27,13 +27,19 @@ The format is `+ISO REG-LOC-NUMB`. The dashes are required. `+ISO` and `REG` are
 
 * No leading `#` (3-digit): `^[a-f0-9]{3}$`
 * Optional leading `#` (3-digit): `^#?[a-f0-9]{3}$`
-* Leading `#` (3-digit): `^#[a-f0-9]{6}$`
-* No leading `#` without opacity: `^[a-f0-9]{6}$`
-* Optional leading `#` without opacity: `^#?[a-f0-9]{6}$`
-* Leading `#` without opacity: `^#[a-f0-9]{6}$`
-* No leading `#` with optional opacity: `^[a-f0-9]{6}([a-f0-9]{2})?$`
-* Optional leading `#` with optional opacity: `^#?[a-f0-9]{6}([a-f0-9]{2})?$`
-* Leading `#` with optional opacity: `^#[a-f0-9]{6}([a-f0-9]{2})?$`
-* No leading `#` with opacity: `^[a-f0-9]{8}$`
-* Optional leading `#` with opacity: `^#?[a-f0-9]{8}$`
-* Leading `#` with opacity: `^#[a-f0-9]{8}$`
+* Leading `#` (3-digit): `^#[a-f0-9]{3}$`
+* No leading `#` (3/6-digit): `^[a-f0-9]{3}([a-f0-9]{3})?$`
+* Optional leading `#` (3/6-digit): `^#?[a-f0-9]{3}([a-f0-9]{3})?$`
+* Leading `#` (3/6-digit): `^#[a-f0-9]{3}([a-f0-9]{3})?$`
+* No leaing `#` (3/6/8-digit): `^[a-f0-9]{3}([a-f0-9]{3}([a-f0-9]{2})?)?$`
+* Optional leading `#` (3/6/8-digit): `^#?[a-f0-9]{3}([a-f0-9]{3}([a-f0-9]{2})?)?$`
+* Leading `#` (3/6/8-digit): `^#[a-f0-9]{3}([a-f0-9]{3}([a-f0-9]{2})?)?$`
+* No leading `#` (6-digit): `^[a-f0-9]{6}$`
+* Optional leading `#` (6-digit): `^#?[a-f0-9]{6}$`
+* Leading `#` (6-digit): `^#[a-f0-9]{6}$`
+* No leading `#` (6/8-digit): `^[a-f0-9]{6}([a-f0-9]{2})?$`
+* Optional leading `#` (6/8-digit): `^#?[a-f0-9]{6}([a-f0-9]{2})?$`
+* Leading `#` (6/8-digit): `^#[a-f0-9]{6}([a-f0-9]{2})?$`
+* No leading `#` (8-digit): `^[a-f0-9]{8}$`
+* Optional leading `#` (8-digit): `^#?[a-f0-9]{8}$`
+* Leading `#` (8-digit): `^#[a-f0-9]{8}$`
